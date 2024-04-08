@@ -103,7 +103,7 @@ d3.csv(link).then((data) => {
   svgWhite
     .append('text')
     .attr('x', svgWidth / 2)
-    .attr('y', 1.12 * svgHeight)
+    .attr('y', 1.2 * svgHeight)
     .attr('text-anchor', 'middle')
     .style('font-size', '16px')
     .style('font-weight', 'bold')
